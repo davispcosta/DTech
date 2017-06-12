@@ -1,0 +1,347 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	background-color: whitesmoke;
+	overflow: auto;
+	padding: 0 40px;
+}
+
+body {
+	overflow: auto;
+}
+
+.baseHead {
+	float: left;
+	padding: 10px;
+}
+
+nav {
+	float: right;
+	padding: 10px;
+}
+
+body{
+	background-color: #282828;
+}
+
+
+.baseHead img{
+	height: 50px;
+}
+
+
+.navbar {
+	display: inline;
+	list-style: none;
+}
+
+.navbar a {
+	cursor: pointer;
+}
+
+.navbar li {
+	float: left;
+	padding: 0 10px;
+	margin: 0 10px;
+	line-height: 50px;
+	font-weight: 300;
+	letter-spacing: 0.8px;
+	color: #1f1f1f;
+}
+
+.active li {
+	font-weight: 600;
+	color: #bf1e2e;
+}
+
+/** ------------------ INDEX PAGE ------------------------ **/
+
+.indexbox {
+	background-image: url('../img/indexBack.jpg');
+	background-attachment: fixed;
+}
+
+.indexbox div {
+	background-color: rgba(0,0,0,0.7);
+	text-align: center;
+	padding-top: 30vh;
+	padding-left: 15vw;
+	padding-right: 15vw;
+	padding-bottom: 30vh;
+	color: whitesmoke;
+}
+
+.indexbox h1 {
+	font-size: 50px;
+	color: deepskyblue;
+}
+
+.indexbox h2 {
+	font-weight: 200;
+	font-size: 60px;
+}
+
+.indexbox button {
+	cursor: pointer;
+	margin-top: 15px;
+	padding: 10px 25px;
+	background-color: #ed3237;
+	border: 0;
+	color: whitesmoke;
+	font-weight: 900;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+
+/** ------ SUBSCRIBE BOX **/
+
+.subscribebox {
+	display: inline-block;
+	background-color: #08608C;
+	width: 100%;
+}
+
+.subscribebox>div {
+	padding: 40px 20px;
+}
+
+.subscribebox div, .subscribebox input {
+	float: left;
+}
+
+.subscribebox div {
+	margin-right: 100px;
+}
+
+.subscribebox input {
+	margin-left: 30px;
+	height: 40px;
+	padding: 0 10px;
+}
+
+.subscribebox h3 {
+	color: #4DAAD8;
+	font-size: 25px;
+}
+
+.subscribebox p {
+	color: whitesmoke;
+}
+
+.subscribebox input[type="submit"] {
+	background-color: #ed3237;
+	border: 0;
+	cursor: pointer;
+	font-weight: 800;
+	font-size: 15px;
+	letter-spacing: 3px;
+	color: whitesmoke;
+}
+
+/** ------ FOOTER BOX **/
+
+footer {
+	padding: 30px 0;
+	background-color: #282828;
+	display: inline-block;
+	width: 100%;
+	color: whitesmoke;
+	font-weight: 300;
+}
+
+footer>p{
+	float: left;
+	margin-left: 30px; 
+}
+
+footer div {
+	float: right;
+	margin-right: 30px; 
+}
+
+footer div img{
+	width: 100px;
+}
+
+/** ------------------ ABOUT PAGE ------------------------ **/
+
+#about {
+	background-color: white;
+	min-height: 100vh;
+}
+
+.aboutbox {
+	
+}
+
+.aboutbox div {
+	height: 300px;
+	width: 100%;
+	background-image: url('../img/aboutimg.jpg');
+	background-attachment: fixed;
+	margin-bottom: 30px;
+}
+
+.aboutbox p {
+	padding: 10px 20px; 
+	font-size: 18px;
+	font-weight: 300;
+	text-align: justify;
+	color: #222;
+}
+
+/** ------------------ COURSE PAGE ------------------------ **/
+
+#courses {
+	background-color: white;
+}
+
+.coursesbox h1, .professorbox h1{
+	text-align: center;
+	margin-top: 50px;
+	font-weight: 800;
+	font-size: 45px;
+	color: #cb1f30;
+}
+
+.courselist {
+	list-style: none;
+	overflow: auto;
+}
+
+.courselist li {
+	margin: 30px;
+	display: inline-block;
+	background-color: whitesmoke;
+}
+
+.courselist li h2 {
+	font-size: 40px;
+	padding: 20px;
+}
+
+.courselist li h2 {
+	font-weight: 500;
+}
+
+.courselist li img{
+	margin: 0 20px;
+	max-width: 50%;
+	float: left;
+}
+
+.courselist li div div {
+	float: left;
+}
+
+.courselist li div div {
+	padding: 10px;
+}
+
+.courselist li div p {
+	font-weight: 700;
+}
+
+.courselist li div p span{
+	font-weight: 400;
+}
+
+.courselist li>p{
+	padding: 20px;
+	text-align: justify;
+	clear: both;
+	font-weight: 300;
+}
+
+
+/** ------------------ PROFESSOR PAGE ------------------------ **/
+
+#professors {
+	background-color: white;
+}
+
+.professorbox {
+	width: 100%;
+	text-align: center;
+}
+
+.professorlist {
+	list-style: none;
+	width: 80%;
+}
+
+
+.professorlist li {
+	margin: 30px;
+	background-color: whitesmoke;	
+	height: 450px;
+    min-height: 150px;
+    overflow:auto;
+}
+
+.professorlist li {
+	text-align: center;
+	width: 40%;
+}
+
+.professorlist li h2 {
+	font-size: 40px;
+	padding: 20px;
+}
+
+.professorlist li h2 {
+	font-weight: 300;
+}
+
+.professorlist li img {
+	margin: 0 20px;
+	width: 50%;
+}
+
+.professorlist li div p {
+	margin: 20px;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+.professorlist {
+	display: inline-block;
+}
+
+.professorlist li {
+	float: left;
+}
+
+
+/** ------------------ CONTACT PAGE ------------------------ **/
+
+#contact {
+	background-color: white;
+}
+
+.contactbox {
+	width: 100%;
+	display: inline-block;
+}
+
+
+.contactbox div {
+	float: left;
+	margin: 30px;
+}
+
+.contactbox h1 {
+	color: deepskyblue;
+	font-weight: 300;
+	font-size: 45px;
+	margin-bottom: 40px;
+}
+
+.contactbox h3 {
+	font-size: 30px;
+}

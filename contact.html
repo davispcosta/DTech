@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>DTech - Instituto Federal</title>
+		<meta charset="utf-8">
+
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet"> 
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<section id="contact">
+			<header>
+				<div class="baseHead">
+					<img src="img/logo.png">
+				</div>
+				<nav>
+					<ul class="navbar">
+						<a href="index.html"><li>Início</li></a>
+						<a href="about.html"><li>Quem Somos</li></a>
+						<a href="courses.html"><li>Cursos</li></a>
+						<a href="professors.html"><li>Professores</li></a>
+						<a class="active" href="contact.html"><li>Contato</li></a>
+					</ul>
+				</nav>
+			</header>
+			<div class="contactbox">						
+				<div id="map" style="width:400px;height:400px">
+                </div>  
+                <div>
+                        <h1>ENTRE EM CONTATO</h1>
+                        <h3>dtech@gmail.com</h3>
+                        <h3>Rua Almirante Fonseca, 707</h3>
+                        <h3>(085) 985487886</h3>
+                </div>
+			</div>	
+		</section>
+        <footer>
+                <p>© 2017 DTech – Cursos Técnicos | Todos os direitos reservados</p>
+                <div>
+                    <p>Desenvolvido por:</p>
+                    <img src="img/devcosta.png"/>
+                </div>
+        </footer>
+            
+    <script>
+        function myMap() {
+        var mapOptions = {
+            center: new google.maps.LatLng(-3.771113, -38.484046),
+            zoom: 10,
+            mapTypeId: google.maps.MapTypeId.HYBRID
+        }
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        }
+    </script>        
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>            
+    
+    </body>
+</html>
